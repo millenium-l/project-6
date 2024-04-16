@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(43, 123, 105, 0.5) 50%, rgba(0, 0, 0, 0.5))rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    height: 178vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: #333; /* Set your desired background color */
+}
+
+.icon {
+    width: 200px;
+    float: left; /* Corrected the float property */
+    height: 70px;
+}
+
+.logo {
+    color: aqua;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: calc(100% - 220px); /* Adjusted the width to make room for the search bar */
+    display: flex; /* Corrected the display property */
+    justify-content: center;
+    align-items: center; /* Added align-items property */
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-left: 20px; /* Adjusted the margin for better spacing */
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: yellow;
+}
+
+.con{
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.about-us{
+    padding: 20px;
+    background-color: #1a2e4d;
+    color: white;
+    text-align: center;
+}
+
+.di{
+    height: 100vh;
+    display: flex;
+    color: rgb(4, 4, 4);
+    /*background-color: grey;*/
+}
+
+.image{
+    display: block;
+    margin: 20px;
+    height: 60vh;
+}
+
+.img-1 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5)), url(jeff-siepman-z-IxdGQ7lPU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 15em;
+    width: 15em;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.img-2 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5)), url(young-pleased-afro-american-cook-chef-uniform-gestures-tasty-delicious-with-hand-isolated-white-wall.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 15em;
+    width: 15em;
+    margin-left: 100px;
+    border-radius: 15px;
+    bottom: 60px;
+    left: 80px;
+}
+
+.content{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /*background-color: grey;*/
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: #3d5eaeab;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
